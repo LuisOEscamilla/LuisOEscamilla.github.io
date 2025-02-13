@@ -1,0 +1,92 @@
+<!--html file-->
+<!--Luis Escamilla-->
+<!--02//11/25-->
+<!--Projects Page-->
+
+<!doctype html>
+
+<html lang="en-us">
+    <head>
+        <title>Personal Website Projects Page</title>
+
+        <meta name="description" content="A personal website page.">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Luis Escamilla">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    </head>
+
+    <body>
+        <!--generic universal header-->
+        <div class="header-container">
+            <h1>Luis Escamilla</h1>
+
+            <!--Navigation Bar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </div>
+        <!--Main Section-->
+        <main>
+            <h2>Projects</h2>
+            <section class="content-row">
+                <div class="image">
+                    <img src="Master Chef.jpg" alt="Master Chef" width="350" height="250">
+                </div>
+                <div class="text">
+                    <p><b>Recipe Generator</b></p>
+                    <ul>
+                        <li>Developed a multi-page recipe generator using Google Cloud Platform, Streamlit, and Vertex AI.</li>
+                        <li>Integrated user inputs to create custom recipes and visuals, with BigQuery for data storage.</li>
+                        <li>Added advanced features like macro tailoring, recipe downloads, drink generation, and meal portioning.</li>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+            <section class="content-row">
+                <div class="text">
+                    <p><b>Compiler Project</b></p>
+                    <ul>
+                        <li>Built a complete compiler from scratch for a custom J language as part of a class project.<li>
+                        <li>Utilized yacc and lex to translate high-level code into efficient Assembly.<li>
+                        <li>Optimized parsing algorithms to improve code generation accuracy and ensure compliance with language specifications.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="compiler.png" alt="Compiler" width="400" height="250">
+                </div>
+            </section>
+            <section class="content-row">
+                <div class="image">
+                    <img src="codepath.jpeg" alt="CodePath" width="350" height="250">
+                </div>
+                <div class="text">
+                    <p><b>CodePath Web Project</b></p>
+                    <ul>
+                        <li>Designed and developed a responsive personal website during the CodePath cohort.</li>
+                        <li>Focused on promoting healthier lifestyles through exercise, nutrition, and mental wellness practices.</li>
+                        <li>Incorporated user-friendly design, SEO optimization, and interactive features using JavaScript, HTML, and CSS.</li>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;2024 Luis Escamilla. All rights reserved.</p>
+        </footer>
+        <!-- Link to my JavaScript file -->
+        <script src="myscript.js"> </script>
+    </body>
+</html>
